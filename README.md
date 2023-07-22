@@ -27,7 +27,7 @@ Complete this contract with following specifications for each function
 -   borrow
 
     -   Takes `Age`, `Gender` and `Animal Type`.
-    -   Can borrow only one animal at a time. Use function `giveBackAnimal` to borrow another animal.
+    -   Can borrow only one animal at a time. Use function `giveBackAnimal` to return borrowed animal.
     -   Men can borrow only `Dog` and `Fish`.
     -   Women can borrow every kind, but women aged under 40 are not allowed to borrow a `Cat`.
     -   Throw an error if an address has called this function before using other values for `Gender` and `Age`.
